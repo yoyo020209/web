@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<title>뇌절에이치티엠엘노트-CSS</title>
+<meta charset="utf-8">
+<style>
+body {margin:0;}
+a{color:black; text-decoration:none;}
+h1 {font-size:60px;
+  text-align:center;
+  border-bottom:3.5px solid blue;
+margin:0;
+padding:20px;}
+ol {border-right:3.5px solid gray;
+width:100px;
+margin:0;
+padding:20px;}
+#grid {display: grid;
+grid-template-columns: 150px 1fr;}
+#grid ol { padding-left:33px;}
+#grid #article {padding-left:25px;}
+  </style>
+</head>
+<body>
+  <p><a href="https://opentutorials.org/course/1" target="_blank" title=
+    specification> 여기서 공부하자 </a>
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+  <ol>
+    <li><a href="1.html" >HTML </a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+</ol>
+<div id="article">
+<h2>CSS</h2>
+<p>
+<br>style 이 css 명령어 인듯
+<br> a {;text-decoration: none;} 하면 모든 밑줄 사라짐
+<br> ;text-decoration:underline 하면 옆에 있는 글자에만 줄 그어짐
+<br> font-size:60px; 글자크기 조절
+<br> text-align:center; 글자 가운데 감
+<br> class="" 그룹으로 묶음
+<br> 그룹으로 묶은거에 명령하려면 .그룹명 으로 해야함
+<br> id vs class 중 id가 이긴다.
+<br> class vs 태그 중 class 가 이긴다.
+<br> id > class > 태그
+<br> 다 동급이면 가장마지막부터 적용이됨
+<br> 같은 id값을 두번쓰면 안됨
+</p>
+</div>
+</div>
+</body>
+</html>
